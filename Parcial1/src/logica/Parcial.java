@@ -2,6 +2,14 @@ package logica;
 
 import java.util.ArrayList;
 
+//INSTRUCCIONES:
+//1. La clase Parcial es una clase de ecuación de segundo orden.
+//2. Por eso tiene los atributos a, b y c (Coeficientes, que caracterizan a una ecuación de este tipo)
+//3. Por eso tiene los servicios calcularDiscriminante() y calcularRaices()
+//4. Para crear una ecuación, debe crear una instancia de la clase Parcial con los coeficientes como parámetro.
+//5. Se prueban casos en la clase principal. Si se quiere añadir casos, añadirlos a esa clase.
+//6. La clase tiene 100% cobertura por los tests. Correr el archivo en la carpeta "tests" para confirmar.
+
 public class Parcial {
 	private double a;
 	private double b;
